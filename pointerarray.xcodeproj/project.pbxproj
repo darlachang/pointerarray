@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09F3685E1CAD51F400CDDE19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F3685D1CAD51F400CDDE19 /* main.m */; };
+		09F368661CAD521900CDDE19 /* arraySum.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F368651CAD521900CDDE19 /* arraySum.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		09F3685A1CAD51F400CDDE19 /* pointerarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pointerarray; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F3685D1CAD51F400CDDE19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09F368641CAD521900CDDE19 /* arraySum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arraySum.h; sourceTree = "<group>"; };
+		09F368651CAD521900CDDE19 /* arraySum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = arraySum.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				09F3685D1CAD51F400CDDE19 /* main.m */,
+				09F368641CAD521900CDDE19 /* arraySum.h */,
+				09F368651CAD521900CDDE19 /* arraySum.m */,
 			);
 			path = pointerarray;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F3685E1CAD51F400CDDE19 /* main.m in Sources */,
+				09F368661CAD521900CDDE19 /* arraySum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
